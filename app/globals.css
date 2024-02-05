@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: #161925;
+    @apply text-slate-300 m-0;
+}
+
+h1,h2 {
+    @apply font-bold text-lg
+ }
+
+
+
+/*Navigation*/
+
+nav {
+    @apply
+    pb-4
+    border-b-2 border-gray-200
+    flex items-center gap-10
+    my-5 mx-auto
+    w-full;
+}
+
+nav a, nav span {
+    @apply text-slate-300;
+}
+
+nav a:hover {
+    @apply text-Tomato;
+}
