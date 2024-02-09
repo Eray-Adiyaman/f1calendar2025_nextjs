@@ -37,7 +37,7 @@
       "fullGpName": "formula 1 stc saudi arabian grand prix 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -68,7 +68,7 @@
       "fullGpName": "formula 1 rolex australian grand prix 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -99,7 +99,7 @@
       "fullGpName": "formula 1 msc cruises japanese grand prix 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -130,7 +130,7 @@
       "fullGpName": "formula 1 lenovo chinese grand prix 2024",
       "sprintWeekend": true,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -161,7 +161,7 @@
       "fullGpName": "formula 1 crypto.com miami grand prix 2024",
       "sprintWeekend": true,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -192,7 +192,7 @@
       "fullGpName": "formula 1 msc cruises gran premio dell'emilia-romagna 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -223,7 +223,7 @@
       "fullGpName": "formula 1 grand prix de monaco 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -254,7 +254,7 @@
       "fullGpName": "formula 1 grand prix du canada 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -285,7 +285,7 @@
       "fullGpName": "formula 1 aramco gran premio de españa 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -316,7 +316,7 @@
       "fullGpName": "formula 1 qatar airways austrian grand prix 2024",
       "sprintWeekend": true,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -347,7 +347,7 @@
       "fullGpName": "formula 1 qatar airways british grand prix 2024",
       "sprintWeekend": false,
       "dates": [
-        { "raceStart": "" },
+        { "raceStart": "2024-03-02T15:00:00+0000" },
         { "qualifySession": "" },
         { "freepractice1": "" },
         { "freepractice2": "" },
@@ -369,6 +369,378 @@
         },
         { "circutRotation": "Clockwise" },
         { "totalCorner": 18 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "13",
+      "gpName": "Hungarian GP",
+      "fullGpName": "formula 1 hungarian grand prix 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 4.381 },
+        { "raceDistance": 306.63 },
+        { "numberoflaps": 70 },
+        { "firstGPdate": "1986" },
+        {
+          "LapRecord": [
+            { "time": "1:16.627" },
+            { "recordHolder": "Sir Lewis Hamilton(2020)" }
+          ]
+        },
+        { "circutRotation": "Clockwise" },
+        { "totalCorner": 14 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "14",
+      "gpName": "Belgian GP",
+      "fullGpName": "formula 1 rolex belgian grand prix 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 7.004 },
+        { "raceDistance": 308.052 },
+        { "numberoflaps": 44 },
+        { "firstGPdate": "1950" },
+        {
+          "LapRecord": [
+            { "time": "1:46.286" },
+            { "recordHolder": "Valtteri Bottas(2018)" }
+          ]
+        },
+        { "circutRotation": "Clockwise" },
+        { "totalCorner": 18 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "15",
+      "gpName": "Dutch GP",
+      "fullGpName": "formula 1 heineken dutch grand prix 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 4.259 },
+        { "raceDistance": 306.587 },
+        { "numberoflaps": 72 },
+        { "firstGPdate": "1952" },
+        {
+          "LapRecord": [
+            { "time": "1:11.097" },
+            { "recordHolder": "Sir Lewis Hamilton(2021)" }
+          ]
+        },
+        { "circutRotation": "Clockwise" },
+        { "totalCorner": 14 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "16",
+      "gpName": "Italian GP",
+      "fullGpName": "formula 1 pirelli gran premio d’italia 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 5.793 },
+        { "raceDistance": 306.72 },
+        { "numberoflaps": 53 },
+        { "firstGPdate": "1950" },
+        {
+          "LapRecord": [
+            { "time": "1:21.046" },
+            { "recordHolder": "Rubens Barrichello(2004)" }
+          ]
+        },
+        { "circutRotation": "Clockwise" },
+        { "totalCorner": 11 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "17",
+      "gpName": "Azerbaijan GP",
+      "fullGpName": "formula 1 qatar airways azerbaijan grand prix 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 6.003 },
+        { "raceDistance": 306.049 },
+        { "numberoflaps": 51 },
+        { "firstGPdate": "2016" },
+        {
+          "LapRecord": [
+            { "time": "1:43.009" },
+            { "recordHolder": "Charles Leclerc (2019)" }
+          ]
+        },
+        { "circutRotation": "Clockwise" },
+        { "totalCorner": 20 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "18",
+      "gpName": "Singapore GP",
+      "fullGpName": "formula 1 singapore airlines singapore grand prix 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 4.94 },
+        { "raceDistance": 306.143 },
+        { "numberoflaps": 62 },
+        { "firstGPdate": "2008" },
+        {
+          "LapRecord": [
+            { "time": "1:35.867" },
+            { "recordHolder": "Sir Lewis Hamilton(2023)" }
+          ]
+        },
+        { "circutRotation": "Counterclockwise" },
+        { "totalCorner": 19 },
+        { "drsZones": 3 }
+      ]
+    },
+    {
+      "id": "19",
+      "gpName": "United States GP",
+      "fullGpName": "formula 1 pirelli united states grand prix 2024",
+      "sprintWeekend": true,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 5.513 },
+        { "raceDistance": 308.405 },
+        { "numberoflaps": 56 },
+        { "firstGPdate": "2012" },
+        {
+          "LapRecord": [
+            { "time": "1:36.169" },
+            { "recordHolder": "Charles Leclerc (2019)" }
+          ]
+        },
+        { "circutRotation": "Counterclockwise" },
+        { "totalCorner": 20 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "20",
+      "gpName": "Mexico City GP",
+      "fullGpName": "formula 1 gran premio de la ciudad de méxico 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 4.304 },
+        { "raceDistance": 305.354 },
+        { "numberoflaps": 71 },
+        { "firstGPdate": "1963" },
+        {
+          "LapRecord": [
+            { "time": "1:17.774" },
+            { "recordHolder": "Valtteri Bottas(2021)" }
+          ]
+        },
+        { "circutRotation": "Counterclockwise" },
+        { "totalCorner": 17 },
+        { "drsZones": 3 }
+      ]
+    },
+    {
+      "id": "21",
+      "gpName": "Sao Paulo GP",
+      "fullGpName": "formula 1 lenovo grande prêmio de são paulo 2024",
+      "sprintWeekend": true,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 4.309 },
+        { "raceDistance": 305.879 },
+        { "numberoflaps": 71 },
+        { "firstGPdate": "1973" },
+        {
+          "LapRecord": [
+            { "time": "1:10.540" },
+            { "recordHolder": "Valtteri Bottas(2018)" }
+          ]
+        },
+        { "circutRotation": "Counterclockwise" },
+        { "totalCorner": 15 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "22",
+      "gpName": "Las Vegas GP",
+      "fullGpName": "formula 1 heineken silver las vegas grand prix 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 6.201 },
+        { "raceDistance": 309.958 },
+        { "numberoflaps": 50 },
+        { "firstGPdate": "2023" },
+        {
+          "LapRecord": [
+            { "time": "1:35.490" },
+            { "recordHolder": "Oscar Piastri(2023)" }
+          ]
+        },
+        { "circutRotation": "Counterclockwise" },
+        { "totalCorner": 17 },
+        { "drsZones": 2 }
+      ]
+    },
+    {
+      "id": "23",
+      "gpName": "Qatar GP",
+      "fullGpName": "formula 1 qatar airways qatar grand prix 2024",
+      "sprintWeekend": true,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 5.419 },
+        { "raceDistance": 308.611 },
+        { "numberoflaps": 57 },
+        { "firstGPdate": "2021" },
+        {
+          "LapRecord": [
+            { "time": "1:24.319" },
+            { "recordHolder": "Max Verstappen(2023)" }
+          ]
+        },
+        { "circutRotation": "Clockwise" },
+        { "totalCorner": 16 },
+        { "drsZones": 1 }
+      ]
+    },
+    {
+      "id": "24",
+      "gpName": "Abu Dhabi GP",
+      "fullGpName": "formula 1 etihad airways abu dhabi grand prix 2024",
+      "sprintWeekend": false,
+      "dates": [
+        { "raceStart": "2024-03-02T15:00:00+0000" },
+        { "qualifySession": "" },
+        { "freepractice1": "" },
+        { "freepractice2": "" },
+        { "freepractice3": "" },
+        { "sprintsession": [] }
+      ],
+      "circutInfo": [
+        { "image1Layout": "base64/*TODO*/" },
+        { "image2Technical": "base64/*TODO*/" },
+        { "circutlength": 5.281 },
+        { "raceDistance": 306.183 },
+        { "numberoflaps": 58 },
+        { "firstGPdate": "2009" },
+        {
+          "LapRecord": [
+            { "time": "1:26.103" },
+            { "recordHolder": "Max Verstappen(2021)" }
+          ]
+        },
+        { "circutRotation": "Clockwise" },
+        { "totalCorner": 16 },
         { "drsZones": 2 }
       ]
     }
