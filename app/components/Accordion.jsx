@@ -4,7 +4,7 @@ export default function Accordion({ race }) {
   //console.log(race.dates[5].springsession === undefined by default, fill later when data available ) 
   return (
     <>
-      <div key={race.id}>
+      <div className="accord" key={race.id}>
         <h2>
           {race.gpName} round-{race.id} {race.sprintWeekend ? "/ Sprint Weekend*" : ""}
         </h2>

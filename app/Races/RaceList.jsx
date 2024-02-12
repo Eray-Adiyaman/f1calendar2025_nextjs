@@ -17,13 +17,13 @@ export default async function RaceList() {
     const RaceCalendarData= await getRaceCalendarData();
 
   return (
-    <>
+    <div>
     {RaceCalendarData.map((race)=> (
         <Accordion key={race.id} race={race} />
     ))}
     {RaceCalendarData.length === 0 && (
         <p>There are no Race Data Available</p>
     )}
-    </>
+    </div>
   )
 }

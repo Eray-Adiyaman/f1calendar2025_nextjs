@@ -31,3 +31,21 @@ nav a, nav span {
 nav a:hover {
     @apply text-Tomato;
 }
+
+.layout {
+    @apply flex mx-0; 
+}
+
+.accord {
+    @apply
+    ml-5 
+    border-r-2;
+}
+
+.pointstable {
+    @apply ml-auto border-r-2;
+}
+
+.labels {
+    @apply flex justify-between
+}
