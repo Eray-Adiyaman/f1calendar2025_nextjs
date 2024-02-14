@@ -1,7 +1,7 @@
 "use client"
 import { format } from "date-fns";
 
-export default function AccordionItem({ race }) {
+export default function AccordionItem({ race,index, setIndex }) {
 
   const sprintTrue = race.sprintWeekend ? "visible" : "hidden";
   const sprintFalse = race.sprintWeekend ? "hidden" : "visible";
@@ -41,14 +41,16 @@ export default function AccordionItem({ race }) {
     }
   };
 
+  const handleSetIndex=(Id) => index !== Id && setIndex(Id)
+
   return (
     <div className="accord">
       <li>
-        <button>
+        <button onClick={()=>handleSetIndex(race.id)}>
           {race.gpName}
-          <span> /— {race.sprintWeekend ? "Sprint Weekend" : ""}</span>
+          { <span> /— {/*index !== race.id && format(race.dates[0].raceStart, "LLL d  H:mma")*/} {race.sprintWeekend ? "Sprint Weekend" : ""}</span> }
         </button>
-        <div>
+        {index === race.id && (<div>
           <ul>
             <li>Race Start- {formatTime(0)}</li>
             <li className={sprintTrue} >SPRINT RACE- {formatTime(6)}</li>
@@ -58,7 +60,7 @@ export default function AccordionItem({ race }) {
             <li className={sprintFalse}>FP2- {formatTime(3)}</li>
             <li>FP1- {formatTime(4)}</li>
           </ul>
-        </div>
+        </div>)}
       </li>
     </div>
   );

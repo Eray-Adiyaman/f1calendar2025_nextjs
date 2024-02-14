@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import bahrein from "/public/Bahrain.png"
 
 export default function CircutInfo() {
   return (
@@ -22,7 +22,7 @@ export default function CircutInfo() {
             <label>lower label 3</label>
             <label>lower label 4</label>
           </div>
-          <Image src="" width={750} quality={100} alt="bahrein" />
+          <Image src={bahrein} width={750} quality={100} alt="bahrein" />
         </div>
   )
 }
