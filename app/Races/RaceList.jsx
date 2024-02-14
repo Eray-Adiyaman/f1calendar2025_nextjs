@@ -1,4 +1,4 @@
-import Accordion from "../components/Accordion";
+import Accordion from "../components/AccordionModule/Accordion";
 
 async function getRaceCalendarData() {
     const res = await fetch("http://localhost:4000/f12024SeasonCalendarData",{
@@ -18,12 +18,7 @@ export default async function RaceList() {
 
   return (
     <div>
-    {RaceCalendarData.map((race)=> (
-        <Accordion key={race.id} race={race} />
-    ))}
-    {RaceCalendarData.length === 0 && (
-        <p>There are no Race Data Available</p>
-    )}
+     <Accordion raceData={RaceCalendarData} />
     </div>
   )
 }

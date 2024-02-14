@@ -1,6 +1,7 @@
+"use client"
 import { format } from "date-fns";
 
-export default function Accordion({ race }) {
+export default function AccordionItem({ race }) {
 
   const sprintTrue = race.sprintWeekend ? "visible" : "hidden";
   const sprintFalse = race.sprintWeekend ? "hidden" : "visible";
