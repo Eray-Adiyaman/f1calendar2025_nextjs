@@ -7,7 +7,7 @@ export default function Accordion({raceData}) {
   const [Index,setIndex] = useState()
 
   return (
-      <div className="flex flex-col justify-center ml-3">
+      <div className="accord">
     {raceData.map((race)=> (
         <AccordionItem key={race.id} race={race} index={Index} setIndex={setIndex} />
     ))}

@@ -8,7 +8,7 @@ body {
 }
 
 h1,h2 {
-    @apply font-bold text-lg
+    @apply font-bold text-lg;
  }
 
 
@@ -38,8 +38,33 @@ nav a:hover {
 
 .accord {
     @apply
-    ml-5 
-    border-r-2;
+    ml-1 p-1
+    bg-LapisLazuli
+    rounded-xl;
+}
+.AccordionItem {
+    @apply
+    text-white
+    m-1.5 p-1.5
+    rounded-md
+    bg-RaisinBlack;
+}
+.AccordionItemExpanded {
+    @apply
+    text-white
+    m-1.5 p-1.5
+    rounded-md
+    bg-Tomato
+    h-96;
+}
+
+.SessionsAndTimers {
+    @apply
+        text-black
+        bg-white
+        flex-row
+        h-80
+        justify-between;
 }
 
 .pointstable {
@@ -47,5 +72,20 @@ nav a:hover {
 }
 
 .labels {
-    @apply flex justify-between
+    @apply flex justify-between;
+}
+
+.GpNameTag:hover {
+    @apply 
+    cursor-pointer
+    bg-LapisLazuli;
+}
+
+.time-stamp-element {
+    @apply
+        float-right
+        overflow-hidden
+        bg-Plum
+        rounded-md;
+
 }
