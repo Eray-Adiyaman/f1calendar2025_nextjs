@@ -14,7 +14,9 @@ module.exports = {
         SchoolBusYellow:"#F1D302",
         RaisinBlack:"#161925",
         Tomato:"#FF6542",
-        Plum:"#88498F"
+        Plum:"#88498F",
+        PayneGray:"#5E6973",
+        Platinum:"#7C9AA0"
       }
     },
   },

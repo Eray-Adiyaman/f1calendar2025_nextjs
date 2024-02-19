@@ -39,7 +39,7 @@ nav a:hover {
 .accord {
     @apply
     ml-1 p-1
-    bg-LapisLazuli
+    bg-Platinum
     rounded-xl;
 }
 .AccordionItem {
@@ -47,6 +47,7 @@ nav a:hover {
     text-white
     m-1.5 p-1.5
     rounded-md
+    overflow-hidden
     bg-RaisinBlack;
 }
 .AccordionItemExpanded {
@@ -54,17 +55,29 @@ nav a:hover {
     text-white
     m-1.5 p-1.5
     rounded-md
-    bg-Tomato
+    bg-PayneGray
+    overflow-hidden
+    transition duration-500 ease-in
     h-96;
 }
 
 .SessionsAndTimers {
     @apply
         text-black
-        bg-white
         flex-row
         h-80
+        transition duration-300 ease-in
         justify-between;
+}
+
+.SessionsAndTimers p {
+    @apply
+    m-auto
+    justify-between
+    p-4
+    mb-2.5
+    rounded-xl
+    border-2;
 }
 
 .pointstable {
@@ -78,14 +91,19 @@ nav a:hover {
 .GpNameTag:hover {
     @apply 
     cursor-pointer
-    bg-LapisLazuli;
+    rounded
+    bg-PayneGray;
+}
+
+.GpNameTag + .AccordionItemExpanded{
+    @apply
+     text-black
 }
 
 .time-stamp-element {
     @apply
         float-right
         overflow-hidden
-        bg-Plum
         rounded-md;
 
 }
