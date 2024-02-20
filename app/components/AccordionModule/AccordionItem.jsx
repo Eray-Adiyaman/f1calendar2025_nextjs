@@ -41,7 +41,7 @@ export default function AccordionItem({ race, index, setIndex }) {
   };
 
   const handleSetIndex = (Id) => {
-    if(Id === index){setIndex(0)}
+    if(Id === index){setIndex(1)}
     index !== Id && setIndex(Id);
   };
 

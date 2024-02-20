@@ -39,7 +39,7 @@ nav a:hover {
 .accord {
     @apply
     ml-1 p-1
-    bg-Platinum
+    bg-PayneGray
     rounded-xl;
 }
 .AccordionItem {
@@ -55,7 +55,7 @@ nav a:hover {
     text-white
     m-1.5 p-1.5
     rounded-md
-    bg-PayneGray
+    bg-Platinum
     overflow-hidden
     transition duration-500 ease-in
     h-96;

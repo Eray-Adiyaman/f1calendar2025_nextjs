@@ -2,7 +2,7 @@
 //components
 import NavBar from "../components/NavBar";
 import RaceList from "../Races/RaceList";
-import CircutInfo from "../components/CircutInfo";
+import CircutInfo from "../components/CircutInfoModule/CircutInfo";
 import SocialCards from "../components/SocialCards";
 import PointsTable from "../components/PointsTable";
 
@@ -14,7 +14,6 @@ export default function Dashboardlayout({ children }) {
       {children}
       <main className="layout">
         <RaceList />
-        <CircutInfo />
         <SocialCards />
         <PointsTable />
       </main>
