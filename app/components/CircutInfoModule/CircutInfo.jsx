@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Bahrain , Second, Thidr} from ".";
 
-export default function CircutInfo({circutData, Index}) {
+export default function CircutInfo({circutData,circutName}) {
   
   const imgArr = [Bahrain];
   
@@ -24,7 +24,7 @@ export default function CircutInfo({circutData, Index}) {
             <label>{`Total Corners `+ circutData[8].totalCorner}</label>
           </div>
           <div className="labels">
-            <label>CIRCUT NAME</label>
+            <label>{circutName}</label>
             <label>{`Lap Record `+circutData[6].LapRecord[0].time}</label>
             <label>{circutData[6].LapRecord[1].recordHolder}</label>
             <label>{`Laps `+circutData[4].numberoflaps}</label>
