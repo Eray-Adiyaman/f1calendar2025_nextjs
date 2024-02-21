@@ -2,7 +2,7 @@
 //components
 import NavBar from "../components/NavBar";
 import RaceList from "../Races/RaceList";
-import CircutInfo from "../components/CircutInfoModule/CircutInfo";
+import CircuitInfo from "../components/CircuitInfoModule/CircuitInfo";
 import SocialCards from "../components/SocialCards";
 import PointsTable from "../components/PointsTable";
 

@@ -14,10 +14,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.412 },
+        { "circuitlength": 5.412 },
         { "raceDistance": 308.238 },
         { "numberoflaps": 57 },
         { "firstGPdate": "2004" },
@@ -27,7 +27,7 @@
             { "recordHolder": "Pedro de la Rosa(2005)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 15 },
         { "drsZones": 3 }
       ]
@@ -46,10 +46,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 6.174 },
+        { "circuitlength": 6.174 },
         { "raceDistance": 308.45 },
         { "numberoflaps": 50 },
         { "firstGPdate": "2021" },
@@ -59,7 +59,7 @@
             { "recordHolder": "Sir Lewis Hamilton(2021)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 27 },
         { "drsZones": 3 }
       ]
@@ -78,10 +78,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.278 },
+        { "circuitlength": 5.278 },
         { "raceDistance": 306.124 },
         { "numberoflaps": 58 },
         { "firstGPdate": "1996" },
@@ -91,7 +91,7 @@
             { "recordHolder": "Sergio Perez(2023)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 14 },
         { "drsZones": 4 }
       ]
@@ -110,10 +110,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.807 },
+        { "circuitlength": 5.807 },
         { "raceDistance": 307.471 },
         { "numberoflaps": 53 },
         { "firstGPdate": "1987" },
@@ -123,7 +123,7 @@
             { "recordHolder": "Sir Lewis Hamilton(2019)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 18 },
         { "drsZones": 1 }
       ]
@@ -142,10 +142,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.451 },
+        { "circuitlength": 5.451 },
         { "raceDistance": 305.066 },
         { "numberoflaps": 56 },
         { "firstGPdate": "1987" },
@@ -155,7 +155,7 @@
             { "recordHolder": "Michael Schumacher(2004)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 16 },
         { "drsZones": 2 }
       ]
@@ -174,10 +174,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.412 },
+        { "circuitlength": 5.412 },
         { "raceDistance": 308.326 },
         { "numberoflaps": 57 },
         { "firstGPdate": "2022" },
@@ -187,7 +187,7 @@
             { "recordHolder": "Max Verstappen(2023)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 19 },
         { "drsZones": 2 }
       ]
@@ -206,10 +206,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.909 },
+        { "circuitlength": 4.909 },
         { "raceDistance": 309.049 },
         { "numberoflaps": 63 },
         { "firstGPdate": "1980" },
@@ -219,7 +219,7 @@
             { "recordHolder": "Sir Lewis Hamilton(2020)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 19 },
         { "drsZones": 1 }
       ]
@@ -238,10 +238,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 3.337 },
+        { "circuitlength": 3.337 },
         { "raceDistance": 260.286 },
         { "numberoflaps": 78 },
         { "firstGPdate": "1950" },
@@ -251,7 +251,7 @@
             { "recordHolder": "Sir Lewis Hamilton(2021)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 19 },
         { "drsZones": 1 }
       ]
@@ -270,10 +270,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.361 },
+        { "circuitlength": 4.361 },
         { "raceDistance": 305.27 },
         { "numberoflaps": 70 },
         { "firstGPdate": "1978" },
@@ -283,7 +283,7 @@
             { "recordHolder": "Valtteri Bottas(2019)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 14 },
         { "drsZones": 3 }
       ]
@@ -302,10 +302,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.657 },
+        { "circuitlength": 4.657 },
         { "raceDistance": 307.236 },
         { "numberoflaps": 66 },
         { "firstGPdate": "1991" },
@@ -315,7 +315,7 @@
             { "recordHolder": "Max Verstappen(2023)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 14 },
         { "drsZones": 2 }
       ]
@@ -334,10 +334,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.318 },
+        { "circuitlength": 4.318 },
         { "raceDistance": 306.452 },
         { "numberoflaps": 71 },
         { "firstGPdate": "1970" },
@@ -347,7 +347,7 @@
             { "recordHolder": "Carlos Sainz(2020)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 10 },
         { "drsZones": 3 }
       ]
@@ -366,10 +366,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.891 },
+        { "circuitlength": 5.891 },
         { "raceDistance": 306.198 },
         { "numberoflaps": 52 },
         { "firstGPdate": "1950" },
@@ -379,7 +379,7 @@
             { "recordHolder": "Max Verstappen(2020)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 18 },
         { "drsZones": 2 }
       ]
@@ -398,10 +398,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.381 },
+        { "circuitlength": 4.381 },
         { "raceDistance": 306.63 },
         { "numberoflaps": 70 },
         { "firstGPdate": "1986" },
@@ -411,7 +411,7 @@
             { "recordHolder": "Sir Lewis Hamilton(2020)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 14 },
         { "drsZones": 2 }
       ]
@@ -430,10 +430,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 7.004 },
+        { "circuitlength": 7.004 },
         { "raceDistance": 308.052 },
         { "numberoflaps": 44 },
         { "firstGPdate": "1950" },
@@ -443,7 +443,7 @@
             { "recordHolder": "Valtteri Bottas(2018)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 18 },
         { "drsZones": 2 }
       ]
@@ -462,10 +462,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.259 },
+        { "circuitlength": 4.259 },
         { "raceDistance": 306.587 },
         { "numberoflaps": 72 },
         { "firstGPdate": "1952" },
@@ -475,7 +475,7 @@
             { "recordHolder": "Sir Lewis Hamilton(2021)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 14 },
         { "drsZones": 2 }
       ]
@@ -494,10 +494,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.793 },
+        { "circuitlength": 5.793 },
         { "raceDistance": 306.72 },
         { "numberoflaps": 53 },
         { "firstGPdate": "1950" },
@@ -507,7 +507,7 @@
             { "recordHolder": "Rubens Barrichello(2004)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 11 },
         { "drsZones": 2 }
       ]
@@ -526,10 +526,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 6.003 },
+        { "circuitlength": 6.003 },
         { "raceDistance": 306.049 },
         { "numberoflaps": 51 },
         { "firstGPdate": "2016" },
@@ -539,7 +539,7 @@
             { "recordHolder": "Charles Leclerc (2019)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 20 },
         { "drsZones": 2 }
       ]
@@ -558,10 +558,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.94 },
+        { "circuitlength": 4.94 },
         { "raceDistance": 306.143 },
         { "numberoflaps": 62 },
         { "firstGPdate": "2008" },
@@ -571,7 +571,7 @@
             { "recordHolder": "Sir Lewis Hamilton(2023)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 19 },
         { "drsZones": 3 }
       ]
@@ -590,10 +590,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.513 },
+        { "circuitlength": 5.513 },
         { "raceDistance": 308.405 },
         { "numberoflaps": 56 },
         { "firstGPdate": "2012" },
@@ -603,7 +603,7 @@
             { "recordHolder": "Charles Leclerc (2019)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 20 },
         { "drsZones": 2 }
       ]
@@ -622,10 +622,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.304 },
+        { "circuitlength": 4.304 },
         { "raceDistance": 305.354 },
         { "numberoflaps": 71 },
         { "firstGPdate": "1963" },
@@ -635,7 +635,7 @@
             { "recordHolder": "Valtteri Bottas(2021)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 17 },
         { "drsZones": 3 }
       ]
@@ -654,10 +654,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 4.309 },
+        { "circuitlength": 4.309 },
         { "raceDistance": 305.879 },
         { "numberoflaps": 71 },
         { "firstGPdate": "1973" },
@@ -667,7 +667,7 @@
             { "recordHolder": "Valtteri Bottas(2018)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 15 },
         { "drsZones": 2 }
       ]
@@ -686,10 +686,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 6.201 },
+        { "circuitlength": 6.201 },
         { "raceDistance": 309.958 },
         { "numberoflaps": 50 },
         { "firstGPdate": "2023" },
@@ -699,7 +699,7 @@
             { "recordHolder": "Oscar Piastri(2023)" }
           ]
         },
-        { "circutRotation": "Counterclockwise" },
+        { "circuitRotation": "Counterclockwise" },
         { "totalCorner": 17 },
         { "drsZones": 2 }
       ]
@@ -718,10 +718,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.419 },
+        { "circuitlength": 5.419 },
         { "raceDistance": 308.611 },
         { "numberoflaps": 57 },
         { "firstGPdate": "2021" },
@@ -731,7 +731,7 @@
             { "recordHolder": "Max Verstappen(2023)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 16 },
         { "drsZones": 1 }
       ]
@@ -750,10 +750,10 @@
         { "sprintShootout": ""},
         { "sprintStart": "" }
       ],
-      "circutInfo": [
+      "circuitInfo": [
         { "image1Layout": "base64/*TODO*/" },
         { "image2Technical": "base64/*TODO*/" },
-        { "circutlength": 5.281 },
+        { "circuitlength": 5.281 },
         { "raceDistance": 306.183 },
         { "numberoflaps": 58 },
         { "firstGPdate": "2009" },
@@ -763,7 +763,7 @@
             { "recordHolder": "Max Verstappen(2021)" }
           ]
         },
-        { "circutRotation": "Clockwise" },
+        { "circuitRotation": "Clockwise" },
         { "totalCorner": 16 },
         { "drsZones": 2 }
       ]

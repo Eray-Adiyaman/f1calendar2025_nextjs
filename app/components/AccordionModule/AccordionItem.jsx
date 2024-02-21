@@ -1,7 +1,7 @@
 "use client";
 import { format } from "date-fns";
 
-export default function AccordionItem({ race, index, setIndex, setCircut }) {
+export default function AccordionItem({ race, index, setIndex, setCircuit }) {
   const sprintTrue = race.sprintWeekend ? "visible" : "hidden";
   const sprintFalse = race.sprintWeekend ? "hidden" : "visible";
 
@@ -41,8 +41,8 @@ export default function AccordionItem({ race, index, setIndex, setCircut }) {
   };
 
   const handleSetIndex = (Id) => {
-    if(Id === index){setIndex(1),setCircut(Id)}
-    index !== Id && setIndex(Id),setCircut(Id-1);
+    if(Id === index){setIndex(1),setCircuit(Id)}
+    index !== Id && setIndex(Id),setCircuit(Id-1);
   };
 
   return (
