@@ -23,7 +23,7 @@ export default function Accordion({ raceData }) {
         {raceData.length === 0 && <p>There are no Race Data Available</p>}
       </div>
       <div>
-        <CircuitInfo circuitData={raceData[circuitIndex].circuitInfo} circuitName={raceData[circuitIndex].gpName}/>
+        <CircuitInfo circuitIndex={circuitIndex} circuitData={raceData[circuitIndex].circuitInfo} circuitName={raceData[circuitIndex].gpName}/>
       </div>
     </div>
   );
