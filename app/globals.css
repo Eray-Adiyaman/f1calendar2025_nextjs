@@ -84,8 +84,33 @@ nav a:hover {
     @apply ml-auto border-r-2;
 }
 
-.labels {
-    @apply flex justify-between;
+.label-container {
+    @apply
+    flex justify-between;
+
+}
+
+.label-container label {
+    @apply
+    text-center
+    w-2/5
+    rounded-xl
+    m-1.5
+    p-1
+    border-2;
+
+}
+.label-wrapper {
+    @apply
+    -mt-12
+    mb-6;
+}
+
+.circuitInfo {
+    @apply
+     p-12
+     ml-1.5
+     flex-row;
 }
 
 .GpNameTag:hover {
@@ -97,7 +122,7 @@ nav a:hover {
 
 .GpNameTag + .AccordionItemExpanded{
     @apply
-     text-black
+     text-black;
 }
 
 .time-stamp-element {

@@ -14,7 +14,6 @@ export default function Dashboardlayout({ children }) {
       {children}
       <main className="layout">
         <RaceList />
-        <SocialCards />
         <PointsTable />
       </main>
     </>
