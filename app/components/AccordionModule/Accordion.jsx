@@ -9,7 +9,7 @@ export default function Accordion({ raceData }) {
   const [circuitIndex,setCircuit] = useState(0);
 
   return (
-    <div className="flex">
+    <div className="A-wrapper">
       <div className="accord">
         {raceData.map((race) => (
           <AccordionItem

@@ -65,11 +65,9 @@ export default function CircuitInfo({circuitData,circuitName,circuitIndex}) {
         <div className="label-container">
         <label>Length<p>{ circuitData[2].circuitlength }km </p></label>
         <label>Race Distance <p>{ circuitData[3].raceDistance }km</p></label>
-        <label> ---</label>
         <label>Frist GP <p>{ + circuitData[5].firstGPdate}</p></label>
       </div>
       <div className="label-container">
-        <label>middle label 1</label>
         <label>Rotation <p>{ circuitData[7].circuitRotation }</p></label>
         <label>DRS Zones<p>{ circuitData[9].drsZones }</p></label>
         <label>Total Corners <p> { circuitData[8].totalCorner } </p></label>

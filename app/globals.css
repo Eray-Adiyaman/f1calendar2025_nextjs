@@ -33,7 +33,9 @@ nav a:hover {
 }
 
 .layout {
-    @apply flex mx-0; 
+    @apply 
+    justify-center
+    flex mx-0; 
 }
 
 .accord {
@@ -61,6 +63,11 @@ nav a:hover {
     h-96;
 }
 
+.A-wrapper{
+    @apply
+    flex;
+}
+
 .SessionsAndTimers {
     @apply
         text-black
@@ -81,7 +88,13 @@ nav a:hover {
 }
 
 .pointstable {
-    @apply ml-auto border-r-2;
+    @apply
+    flex;
+}
+
+.wdc-table {
+    @apply
+    mr-3
 }
 
 .label-container {
@@ -108,8 +121,10 @@ nav a:hover {
 
 .circuitInfo {
     @apply
-     p-12
-     ml-1.5
+     p-20
+     ml-20
+     mr-20
+     -mt-7
      flex-row;
 }
 
