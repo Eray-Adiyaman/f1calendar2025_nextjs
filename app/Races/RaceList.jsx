@@ -1,3 +1,4 @@
+import { parseISO } from "date-fns";
 import Accordion from "../components/AccordionModule/Accordion";
 
 async function getRaceCalendarData() {
@@ -16,9 +17,20 @@ async function getRaceCalendarData() {
 export default async function RaceList() {
     const RaceCalendarData= await getRaceCalendarData();
 
+  const raceDates = RaceCalendarData.map((race) => parseISO(race.dates[0].raceStart ))
+  const now = new Date();
+  let circut= 0;
+  let gp= 0;  
+  for(let i=0;i<raceDates.length;i++){
+        if(raceDates[i]< now){
+          circut = i+1;
+          gp = i+2;
+        }
+    }
+
   return (
     <div>
-     <Accordion raceData={RaceCalendarData} />
+     <Accordion raceData={RaceCalendarData} circutState={circut} gpState ={gp} />
     </div>
   )
 }

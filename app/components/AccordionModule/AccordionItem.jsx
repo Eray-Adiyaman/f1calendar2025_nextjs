@@ -1,9 +1,11 @@
 "use client";
 import { format } from "date-fns";
 
-export default function AccordionItem({ race, index, setIndex, setCircuit }) {
+export default function AccordionItem({ race, index, setIndex, setCircuit , currentGpNumber}) {
   const sprintTrue = race.sprintWeekend ? "visible" : "hidden";
   const sprintFalse = race.sprintWeekend ? "hidden" : "visible";
+  const passedGp = currentGpNumber >  parseInt(race.id);
+  console.log(passedGp)
 
   const formatTime = (indexparam) => {
     switch (indexparam) {

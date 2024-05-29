@@ -1,59 +1,59 @@
 export default function PointsTable() {
     const Drivers = [
     {name:"Max Verstappen",
-     points:0,
+     points:169,
      team:"RedBull"
     },
     {name:"Sergio Perez",
-    points:0,
+    points:107,
     team:"RedBull"
     },
     {name:"Lewis Hamilton",
-    points:0,
+    points:42,
     team:"Mercedes"
     },
     {name:"George Russell",
-    points:0,
+    points:54,
     team:"Mercedes"
     },
     {name:"Charles Leclerc",
-    points:0,
+    points:138,
     team:"Ferrari"
     },
     {name:"Carlos Sainz",
-    points:0,
+    points:108,
     team:"Ferrari"
     },
     {name:"Lando Norris",
-    points:0,
+    points:113,
     team:"McLaren"
     },
     {name:"Oscar Piastri",
-    points:0,
+    points:71,
     team:"McLaren"
     },
     {name:"Pierre Gasly",
-    points:0,
+    points:1,
     team:"Alpine"
     },
     {name:"Esteban Ocon",
-    points:0,
+    points:1,
     team:"Alpine"
     },
     {name:"Fernando Alonso",
-    points:0,
+    points:33,
     team:"AstonMartin"
     },
     {name:"Lance Stroll",
-    points:0,
+    points:11,
     team:"AstonMartin"
     }, 
     {name:"Daniel Ricciardo",
-    points:0,
+    points:5,
     team:"RacingBulls"
     },
     {name:"Yuki Tsunoda",
-    points:0,
+    points:19,
     team:"RacingBulls"
     },
     {name:"Valtteri Bottas",
@@ -65,7 +65,7 @@ export default function PointsTable() {
     team:"KickSauber"
     },
     {name:"Alexander Albon",
-    points:0,
+    points:2,
     team:"Williams"
     },
     {name:"Logan Sargeant",
@@ -73,11 +73,11 @@ export default function PointsTable() {
     team:"Williams"
     },
     {name:"Kevin Magnussen",
-    points:0,
+    points:1,
     team:"Haas"
     },
     {name:"Nico Hulkenberg",
-    points:0,
+    points:6,
     team:"Haas"
     },
     
@@ -106,7 +106,7 @@ export default function PointsTable() {
   ];
 
 
-  console.log(Constructors.sort((a,b) => b.value-a.value).map(i => i.name))
+  //console.log(Constructors.sort((a,b) => b.value-a.value).map(i => i.name))
 
   return (
     <div className="pointstable">
