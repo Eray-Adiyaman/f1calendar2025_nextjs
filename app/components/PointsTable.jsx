@@ -106,7 +106,7 @@ export default function PointsTable() {
   ];
 
 
-  //console.log(Constructors.sort((a,b) => b.value-a.value).map(i => i.name))
+  //console.log(Constructors.sort((a,b) => b.value-a.value).map((team,i) => i))
 
   return (
     <div className="pointstable">
@@ -117,7 +117,7 @@ export default function PointsTable() {
               <th>WDC </th>
             </tr>
             {
-              Drivers.sort((a,b)=> b.points - a.points).map(i => <tr key={i}><td>{i.name}</td><td>{i.points}</td></tr> )
+              Drivers.sort((a,b)=> b.points - a.points).map((team,i) => <tr key={i}><td>{team.name}</td><td>{team.points}</td></tr> )
             }
           </tbody>
         </table>
@@ -128,7 +128,7 @@ export default function PointsTable() {
             <tr>
               <th>WCC</th>
             </tr>
-            {Constructors.sort((a,b)=> b.value - a.value).map(i => <tr key={i}><td>{i.name}</td><td>{i.value}</td></tr>)}
+            {Constructors.sort((a,b)=> b.value - a.value).map((team,i)=> <tr key={i}><td>{team.name}</td><td>{team.value}</td></tr>)}
           </tbody>
         </table>
       </div>
