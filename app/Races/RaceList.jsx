@@ -23,14 +23,17 @@ export default async function RaceList() {
   let gp= 0;  
   for(let i=0;i<raceDates.length;i++){
         if(raceDates[i]< now){
-          circut = i+1;
+          circut = i+1; 
           gp = i+2;
         }
     }
+  //Move finished races at the end of the array to reorganize accordion
+   const temp = RaceCalendarData.splice(circut)
+   const newRaceOrder = temp.concat(RaceCalendarData)
 
   return (
     <div>
-     <Accordion raceData={RaceCalendarData} circutState={circut} gpState ={gp} />
+     <Accordion raceData={newRaceOrder} gpState ={gp} />
     </div>
   )
 }

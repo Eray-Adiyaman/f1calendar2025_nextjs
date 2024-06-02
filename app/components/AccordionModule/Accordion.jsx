@@ -3,11 +3,26 @@ import { useState } from "react";
 import AccordionItem from "./AccordionItem";
 import CircuitInfo from "../CircuitInfoModule/CircuitInfo";
 
-export default function Accordion({ raceData ,circutState,gpState }) {
-  const [Index, setIndex] = useState(gpState.toString());//SET THIS TO NEXT GP ID AS STRING LATER, TO ENSURE IT ALWAYS OPENS THE UPCOMING GP ACCORDION FIRST
- // compare dates and set states and create a conditional classname for accordion item to send previous races at the bottom
-  const [circuitIndex,setCircuit] = useState(circutState);
-   
+export default function Accordion({ raceData ,gpState }) {
+  const [Index, setIndex] = useState(gpState.toString());
+  const [circuitIndex,setCircuit] = useState(0);
+  
+
+  //finished races moves at the end of the array but their id stays the same, 
+  //this creates an array id conflict while setting race and circuit indexes at handleclick function and in the circuitinfo component
+  //to rearrange the indexes i take the upcoming gp index as currentgpNumber(gpstate) and assign new array indexes with reIndexArray function when handleclick fires.
+  //and i use (circuitIndex+gpState)-1) % raceData.length to reverse the indexes into original position to set circuit images array correctly
+  const reIndexArray = (currentGpNumber,Id) => {
+    const ArrayLength = raceData.length;
+    if(Id >= currentGpNumber)
+      { 
+        return Id - currentGpNumber;
+      }
+    if(Id < currentGpNumber){
+      return (ArrayLength - currentGpNumber) + parseInt(Id)
+      }
+  }
+    
   return (
     <div className="A-wrapper">
       <div className="accord">
@@ -19,12 +34,14 @@ export default function Accordion({ raceData ,circutState,gpState }) {
             setIndex={setIndex}
             setCircuit={setCircuit}
             currentGpNumber={gpState}
+            reIndexArray ={reIndexArray}
+            
           />
         ))}
         {raceData.length === 0 && <p>There are no Race Data Available</p>}
       </div>
       <div>
-        <CircuitInfo circuitIndex={circuitIndex} circuitData={raceData[circuitIndex].circuitInfo} circuitName={raceData[circuitIndex].gpName}/>
+        <CircuitInfo circuitArrayIndex={((circuitIndex+gpState)-1)%raceData.length} circuitData={raceData[circuitIndex].circuitInfo} circuitName={raceData[circuitIndex].gpName}/>
       </div>
     </div>
   );

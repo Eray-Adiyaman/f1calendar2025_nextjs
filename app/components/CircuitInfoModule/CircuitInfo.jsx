@@ -26,7 +26,7 @@ import {
   AbuDhabi
 } from ".";
 
-export default function CircuitInfo({circuitData,circuitName,circuitIndex}) {
+export default function CircuitInfo({circuitData,circuitName,circuitArrayIndex}) {
   
   const imgArr = [
     Bahrain,
@@ -81,7 +81,7 @@ export default function CircuitInfo({circuitData,circuitName,circuitIndex}) {
         </div>
       </div>
       
-      <Image src={imgArr[circuitIndex]} quality={100} alt={circuitName} />
+      <Image src={imgArr[circuitArrayIndex]} quality={100} alt={circuitName} />
     </div>
   );
 }
