@@ -5,6 +5,7 @@ export default function AccordionItem({ race, index, setIndex, setCircuit , curr
   const sprintTrue = race.sprintWeekend ? "visible" : "hidden";
   const sprintFalse = race.sprintWeekend ? "hidden" : "visible";
   const finishedEvent = currentGpNumber >  parseInt(race.id);
+  const timeStampElementClassName = finishedEvent ? "time-stamp-element finished-event" : "time-stamp-element";
   //console.log(passedGp)
 
   const formatTime = (indexparam) => {
@@ -47,26 +48,27 @@ export default function AccordionItem({ race, index, setIndex, setCircuit , curr
     index !== Id && setIndex(Id),setCircuit(reIndexArray(currentGpNumber,Id));
   };
 
+
   return (
-    <div >
+    <div className={finishedEvent ? "finished-event" : ""}>
       <div  className={index === race.id ? "AccordionItemExpanded" : "AccordionItem"}>
           <div className="GpNameTag" onClick={() => handleSetIndex(race.id)}>
-            {race.gpName}<span className="time-stamp-element">
+            {race.gpName}<span className={timeStampElementClassName}>
                 {index !== race.id && format(race.dates[0].raceStart, "LLL d  H:mma")}
                 {/* {race.sprintWeekend ? "Sprint Weekend" : ""} */}
               </span>
           </div>
           {index === race.id && (
             <div className="SessionsAndTimers">
-                <p>Race Start <span className="time-stamp-element" >{formatTime(0)}</span></p>
-                <p className={sprintTrue}>Sprint <span className="time-stamp-element" >{formatTime(6)}</span></p>
+                <p>Race Start <span className={timeStampElementClassName} >{formatTime(0)}</span></p>
+                <p className={sprintTrue}>Sprint <span className={timeStampElementClassName} >{formatTime(6)}</span></p>
                 <p className={sprintTrue}>
-                  Sprint Shootout <span className="time-stamp-element" >{formatTime(5)}</span> 
+                  Sprint Shootout <span className={timeStampElementClassName} >{formatTime(5)}</span> 
                 </p>
-                <p>Qualifying <span className="time-stamp-element" >{formatTime(1)} </span> </p>
-                <p className={sprintFalse}>FP3 <span className="time-stamp-element" >{formatTime(2)} </span> </p>
-                <p className={sprintFalse}>FP2  <span className="time-stamp-element" >{formatTime(3)} </span> </p>
-                <p>FP1 <span className="time-stamp-element" > {formatTime(4)}</span></p>
+                <p>Qualifying <span className={timeStampElementClassName} >{formatTime(1)} </span> </p>
+                <p className={sprintFalse}>FP3 <span className={timeStampElementClassName} >{formatTime(2)} </span> </p>
+                <p className={sprintFalse}>FP2  <span className={timeStampElementClassName} >{formatTime(3)} </span> </p>
+                <p>FP1 <span className={timeStampElementClassName} > {formatTime(4)}</span></p>
             </div>
           )}
       </div>
