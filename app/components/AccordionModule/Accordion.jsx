@@ -3,9 +3,11 @@ import { useState } from "react";
 import AccordionItem from "./AccordionItem";
 import CircuitInfo from "../CircuitInfoModule/CircuitInfo";
 
-export default function Accordion({ raceData ,gpState }) {
+export default function Accordion({ raceData ,gpState}) {
   const [Index, setIndex] = useState(gpState.toString());
   const [circuitIndex,setCircuit] = useState(0);
+
+  //console.log(jsonBINData" dont forget to add prop")
   
 
   //finished races moves at the end of the array but their id stays the same, 

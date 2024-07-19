@@ -1,6 +1,24 @@
 import { parseISO } from "date-fns";
 import Accordion from "../components/AccordionModule/Accordion";
 
+/*DEPLOY WITH THIS ENDPOINT*/
+// async function getJSONBIN() {
+  
+//   const res = await fetch('https://api.jsonbin.io/v3/b/<  BIN-ID  >',
+//                     {
+//                       method:"GET",
+//                       withCredentials: true,
+//                       headers: {
+//                         "X-Master-key": "",
+//                         "X-Access-key": "",
+//                         "Content-Type": "application/json"
+//                       }
+//                     })
+      
+//           return res.json();
+// } 
+
+
 async function getRaceCalendarData() {
     const res = await fetch("http://localhost:4000/f12024SeasonCalendarData",{
         
@@ -14,8 +32,13 @@ async function getRaceCalendarData() {
 }
 
 
+
+
 export default async function RaceList() {
-    const RaceCalendarData= await getRaceCalendarData();
+  //const data = await getJSONBIN();
+  //const RaceCalendarData = data.record.f12024SeasonCalendarData
+  
+  const RaceCalendarData= await getRaceCalendarData();
 
   const raceDates = RaceCalendarData.map((race) => parseISO(race.dates[0].raceStart ))
   const now = new Date();
