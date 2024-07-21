@@ -41,7 +41,7 @@ nav a:hover {
 .accord {
     @apply
     ml-1 p-1
-    bg-PayneGray
+    bg-gray-400
     rounded-xl;
 }
 .AccordionItem {
@@ -54,10 +54,10 @@ nav a:hover {
 }
 .AccordionItemExpanded {
     @apply
-    text-white
+    text-black
     m-1.5 p-1.5
     rounded-md
-    bg-Platinum
+    bg-cyan-600				
     overflow-hidden
     transition duration-500 ease-in
     h-96;
@@ -84,6 +84,7 @@ nav a:hover {
     p-4
     mb-2.5
     rounded-xl
+    border-white
     border-2;
 }
 
@@ -132,7 +133,8 @@ nav a:hover {
     @apply 
     cursor-pointer
     rounded
-    bg-PayneGray;
+    text-white
+    bg-blue-500;
 }
 
 .GpNameTag + .AccordionItemExpanded{
@@ -154,5 +156,40 @@ nav a:hover {
         line-through
         decoration-2
         decoration-neutral-900;
+
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 425px){
+    body{
+        @apply
+        text-sm;
+    }
+    .layout {
+        @apply
+        flex-col;
+    }
+    .A-wrapper{
+        @apply
+        flex-col;
+    }
+    .circuitInfo {
+        @apply
+        m-0
+        p-0
+        mt-20
+        mb-5
+        text-sm
+        w-full;        
+        
+    }
+    .pointstable {
+        @apply
+        justify-around;
+    }
+}
+
+@media screen and (max-width: 1691px){
 
 }
