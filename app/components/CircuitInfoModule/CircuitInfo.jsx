@@ -80,8 +80,9 @@ export default function CircuitInfo({circuitData,circuitName,circuitArrayIndex})
         <label>Frist GP <p>{ + circuitData[5].firstGPdate}</p></label>
         </div>
       </div>
-      
-      <Image src={imgArr[circuitArrayIndex]} quality={100} alt={circuitName} />
+      <div className="image">
+        <Image src={imgArr[circuitArrayIndex]} quality={100} alt={circuitName} />
+      </div>
     </div>
   );
 }

@@ -42,9 +42,7 @@ export default function Accordion({ raceData ,gpState}) {
         ))}
         {raceData.length === 0 && <p>There are no Race Data Available</p>}
       </div>
-      <div>
         <CircuitInfo circuitArrayIndex={((circuitIndex+gpState)-1)%raceData.length} circuitData={raceData[circuitIndex].circuitInfo} circuitName={raceData[circuitIndex].gpName}/>
-      </div>
     </div>
   );
 }

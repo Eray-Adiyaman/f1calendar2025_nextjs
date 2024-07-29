@@ -134,7 +134,7 @@ nav a:hover {
     cursor-pointer
     rounded
     text-white
-    bg-blue-500;
+    bg-cyan-600;
 }
 
 .GpNameTag + .AccordionItemExpanded{
@@ -161,6 +161,7 @@ nav a:hover {
 
 
 /*MEDIA QUERIES*/
+/*x-small devices*/
 @media screen and (max-width: 425px){
     body{
         @apply
@@ -169,6 +170,10 @@ nav a:hover {
     .layout {
         @apply
         flex-col;
+    }
+    .accord {
+        @apply
+        m-0;	
     }
     .A-wrapper{
         @apply
@@ -189,7 +194,75 @@ nav a:hover {
         justify-around;
     }
 }
+/*small devices*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+    body {
+        @apply
+        text-xs;
+    }
+    .layout {
+        @apply
+        flex-col;
+    }
+    .accord {
+        @apply
+        ml-1
+        w-full;
+    }
+    .label-wrapper {
+        @apply
+        w-96;
+    }
 
-@media screen and (max-width: 1691px){
-
+    .AccordionItemExpanded{
+        @apply
+        overflow-ellipsis;
+    }
+    .circuitInfo {
+        @apply
+        p-0
+        mt-10;
+    }
+    .image {
+        @apply
+        w-full
+        object-none	
+        m-0;
+    }
+    .pointstable {
+      @apply
+      -bottom-60
+      left-2/4
+      text-xs
+      absolute;
+    }
+}
+/*medium devices*/
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        @apply
+        text-xs;
+    }
+    .accord{
+        @apply
+        w-full
+        ml-5;
+    }
+    .circuitInfo{
+        @apply
+        -m-1;
+    }
+}
+/*large devices*/
+@media screen and (min-width: 769px) and (max-width: 1440px){
+    body {
+        @apply
+        text-xs;
+    }
+    
+    .pointstable {
+        @apply
+        -mt-20
+        p-20;
+    }
 }
