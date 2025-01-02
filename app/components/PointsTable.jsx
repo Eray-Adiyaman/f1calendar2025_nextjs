@@ -1,59 +1,59 @@
 export default function PointsTable() {
     const Drivers = [
     {name:"Max Verstappen",
-     points:169,
+     points:0,
      team:"RedBull"
     },
     {name:"Sergio Perez",
-    points:107,
+    points:0,
     team:"RedBull"
     },
     {name:"Lewis Hamilton",
-    points:42,
+    points:0,
     team:"Mercedes"
     },
     {name:"George Russell",
-    points:54,
+    points:0,
     team:"Mercedes"
     },
     {name:"Charles Leclerc",
-    points:138,
+    points:0,
     team:"Ferrari"
     },
     {name:"Carlos Sainz",
-    points:108,
+    points:0,
     team:"Ferrari"
     },
     {name:"Lando Norris",
-    points:113,
+    points:0,
     team:"McLaren"
     },
     {name:"Oscar Piastri",
-    points:71,
+    points:0,
     team:"McLaren"
     },
     {name:"Pierre Gasly",
-    points:1,
+    points:0,
     team:"Alpine"
     },
     {name:"Esteban Ocon",
-    points:1,
+    points:0,
     team:"Alpine"
     },
     {name:"Fernando Alonso",
-    points:33,
+    points:0,
     team:"AstonMartin"
     },
     {name:"Lance Stroll",
-    points:11,
+    points:0,
     team:"AstonMartin"
     }, 
     {name:"Daniel Ricciardo",
-    points:5,
+    points:0,
     team:"RacingBulls"
     },
     {name:"Yuki Tsunoda",
-    points:19,
+    points:0,
     team:"RacingBulls"
     },
     {name:"Valtteri Bottas",
@@ -65,7 +65,7 @@ export default function PointsTable() {
     team:"KickSauber"
     },
     {name:"Alexander Albon",
-    points:2,
+    points:0,
     team:"Williams"
     },
     {name:"Logan Sargeant",
@@ -73,11 +73,11 @@ export default function PointsTable() {
     team:"Williams"
     },
     {name:"Kevin Magnussen",
-    points:1,
+    points:0,
     team:"Haas"
     },
     {name:"Nico Hulkenberg",
-    points:6,
+    points:0,
     team:"Haas"
     },
     

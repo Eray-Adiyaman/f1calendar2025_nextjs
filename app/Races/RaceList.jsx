@@ -20,7 +20,7 @@ import Accordion from "../components/AccordionModule/Accordion";
 
 
 async function getRaceCalendarData() {
-    const res = await fetch("http://localhost:4000/f12024SeasonCalendarData",{
+    const res = await fetch("http://localhost:4000/f12025SeasonCalendarData",{
         
         /*REMOVE REVALIDATION BEFORE DEPLOYMENT */
         next: {

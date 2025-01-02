@@ -7,6 +7,7 @@ export default function Accordion({ raceData ,gpState}) {
   const [Index, setIndex] = useState(gpState.toString());
   const [circuitIndex,setCircuit] = useState(0);
 
+
   //console.log(jsonBINData" dont forget to add prop")
   
 
@@ -42,7 +43,7 @@ export default function Accordion({ raceData ,gpState}) {
         ))}
         {raceData.length === 0 && <p>There are no Race Data Available</p>}
       </div>
-        <CircuitInfo circuitArrayIndex={((circuitIndex+gpState)-1)%raceData.length} circuitData={raceData[circuitIndex].circuitInfo} circuitName={raceData[circuitIndex].gpName}/>
+        <CircuitInfo circuitArrayIndex={/*circuitIndex+gpState === 0 ? 0 :*/((circuitIndex+gpState)-1)%raceData.length} circuitData={raceData[circuitIndex].circuitInfo} circuitName={raceData[circuitIndex].gpName}/>
     </div>
   );
 }
