@@ -12,7 +12,7 @@ export default function NavBar() {
             quality={100}
             placeholder="blur"
         />
-        <h1>Formula 1 2024 Season Calendar</h1>
+        <h1>Formula 1 2025 Season Calendar</h1>
         <Link href="/">Homepage *</Link>
         
     </nav>

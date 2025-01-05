@@ -53,6 +53,7 @@ export default async function RaceList() {
   //Move finished races at the end of the array to reorganize accordion
    const temp = RaceCalendarData.splice(circut)
    const newRaceOrder = temp.concat(RaceCalendarData)
+   if(gp === 0){gp = 1}
 
   return (
     <div>
