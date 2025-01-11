@@ -4,13 +4,13 @@ import Accordion from "../components/AccordionModule/Accordion";
 /*DEPLOY WITH THIS ENDPOINT*/
 async function getJSONBIN() {
   
-  const res = await fetch(`https://api.jsonbin.io/v3/b/${BIN_ID}`,
+  const res = await fetch(`https://api.jsonbin.io/v3/b/${process.env.BIN_ID}`,
                     {
                       method:"GET",
                       withCredentials: true,
                       headers: {
                         "X-Master-key": "",
-                        "X-Access-key": `${ACCESS_KEY}`,
+                        "X-Access-key": `${process.env.ACCESS_KEY}`,
                         "Content-Type": "application/json"
                       }
                     })
