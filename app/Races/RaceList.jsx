@@ -11,7 +11,6 @@ async function getJSONBIN() {
                       headers: {
                         "X-Master-key": "",
                         "X-Access-key": `${ACCESS_KEY}`,
-                        "X-Bin-Meta": false,
                         "Content-Type": "application/json"
                       }
                     })
