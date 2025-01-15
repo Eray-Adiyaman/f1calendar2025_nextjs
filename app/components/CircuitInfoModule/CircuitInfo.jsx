@@ -77,7 +77,7 @@ export default function CircuitInfo({circuitData,circuitName,circuitArrayIndex})
         <div className="label-container">
         <label>Length<p>{ circuitData[2].circuitlength }km </p></label>
         <label>Race Distance <p>{ circuitData[3].raceDistance }km</p></label>
-        <label>Frist GP <p>{ + circuitData[5].firstGPdate}</p></label>
+        <label>First GP <p>{ + circuitData[5].firstGPdate}</p></label>
         </div>
       </div>
       <div className="image">
