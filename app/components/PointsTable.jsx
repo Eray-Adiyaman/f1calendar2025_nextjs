@@ -4,11 +4,11 @@ export default function PointsTable() {
      points:0,
      team:"RedBull"
     },
-    {name:"Sergio Perez",
+    {name:"RB_2",
     points:0,
     team:"RedBull"
     },
-    {name:"Lewis Hamilton",
+    {name:"Kimi Antonelli",
     points:0,
     team:"Mercedes"
     },
@@ -20,7 +20,7 @@ export default function PointsTable() {
     points:0,
     team:"Ferrari"
     },
-    {name:"Carlos Sainz",
+    {name:"Lewis Hamilton",
     points:0,
     team:"Ferrari"
     },
@@ -36,7 +36,7 @@ export default function PointsTable() {
     points:0,
     team:"Alpine"
     },
-    {name:"Esteban Ocon",
+    {name:"Franco Colapinto",
     points:0,
     team:"Alpine"
     },
@@ -48,19 +48,19 @@ export default function PointsTable() {
     points:0,
     team:"AstonMartin"
     }, 
-    {name:"Daniel Ricciardo",
+    {name:"Liam Lawson",
     points:0,
     team:"RacingBulls"
     },
-    {name:"Yuki Tsunoda",
+    {name:"Isaac Hadjar",
     points:0,
     team:"RacingBulls"
     },
-    {name:"Valtteri Bottas",
+    {name:"Gabi Bortoletto",
     points:0,
     team:"KickSauber"
     },
-    {name:"Zhou Guanyu",
+    {name:"Nico HulkenBerg",
     points:0,
     team:"KickSauber"
     },
@@ -68,15 +68,15 @@ export default function PointsTable() {
     points:0,
     team:"Williams"
     },
-    {name:"Logan Sargeant",
+    {name:"Carlos Sainz",
     points:0,
     team:"Williams"
     },
-    {name:"Kevin Magnussen",
+    {name:"Oliver Bearman",
     points:0,
     team:"Haas"
     },
-    {name:"Nico Hulkenberg",
+    {name:"Esteban Ocon",
     points:0,
     team:"Haas"
     },
